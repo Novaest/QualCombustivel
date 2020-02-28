@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QualCombustivel</string>
+    <string name="gasolina">gasoline</string>
+    <string name="ethanol">Ethanol</string>
+    <string name="priceGasoline">3.50</string>
+    <string name="priceEthanol">3.50</string>
+    <string name="betterUse">betterUse</string>
+    <string name="imageDescription">Qual combustivel é o melhor.</string>
+
+</resources>
