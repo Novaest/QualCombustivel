@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Que combustible</string>
+    <string name="gasolina">Gasolina</string>
+    <string name="ethanol">Etanol</string>
+    <string name="betterUse">Mejor usar</string>
+    <string name="imageDescription">Cuál es mejor</string>
+</resources>

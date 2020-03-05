@@ -10,18 +10,46 @@
 
     tools:context=".MainActivity">
 
+    <EditText
+
+        android:id="@+id/GasEditText"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:maxLength="6"
+        android:digits="0123456789"/>
+
 
     <TextView
-        android:id="@+id/priceGasolineTextView"
+        android:id="@+id/GasTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_row="0"
         android:layout_column="0"
         android:layout_columnSpan="2"
-        android:layout_margin="20dp"
-        android:gravity="center_horizontal"
-        android:text="@string/priceGasoline"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:background="@color/amount_background"
+        android:hint="@string/priceGasoline"
+        android:padding="@dimen/textview_padding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:elevation="@dimen/elevation"/>
+
+    <TextView
+        android:id="@+id/GasTextHigh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:elevation="@dimen/elevation"
+        android:gravity="right"
+        android:hint="@string/gasolina"
+        android:padding="@dimen/textview_padding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
 
     <SeekBar
         android:id="@+id/gasolineSeekBar"
@@ -35,16 +63,44 @@
         android:progress="@integer/defaultProgress" />
 
 
+    <EditText
+        android:id="@+id/ethanolEditText"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:maxLength="6"
+        android:digits="0123456789"/>
     <TextView
         android:id="@+id/priceEthanolTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_row="3"
         android:layout_column="0"
-        android:layout_margin="20dp"
-        android:gravity="center_horizontal"
-        android:text="@string/priceEthanol"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:layout_columnSpan="2"
+        android:background="@color/amount_background"
+        android:hint="@string/priceGasoline"
+        android:padding="@dimen/textview_padding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:elevation="@dimen/elevation"/>
+
+    <TextView
+        android:id="@+id/EthanolTextHigh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:elevation="@dimen/elevation"
+        android:gravity="right"
+        android:hint="@string/ethanol"
+        android:padding="@dimen/textview_padding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+
 
     <SeekBar
         android:id="@+id/ethanolSeekBar"
@@ -53,6 +109,7 @@
         android:layout_row="4"
         android:layout_column="0"
         android:layout_margin="20dp"
+
         android:max="@integer/max"
         android:progress="@integer/defaultProgress" />
 
@@ -67,12 +124,13 @@
         android:layout_margin="30dp"
         android:layout_marginBottom="30dp"
         android:padding="10dp"
-        android:text="@string/betterUse" />
+        android:text="@string/betterUse"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/wichView"
         android:contentDescription="@string/imageDescription"
-        app:srcCompat="@drawable/interroga"
         android:layout_width="300dp"
         android:layout_height="200dp"
         android:layout_column="0"

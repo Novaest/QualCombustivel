@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">QualCombustivel</string>
-    <string name="gasolina">gasoline</string>
+    <string name="app_name">Which ONE</string>
+    <string name="gasolina">Gasoline</string>
     <string name="ethanol">Ethanol</string>
-    <string name="priceGasoline">3.50</string>
-    <string name="priceEthanol">3.50</string>
-    <string name="betterUse">betterUse</string>
-    <string name="imageDescription">Qual combustivel é o melhor.</string>
+    <string name="priceGasoline" translatable="false"></string>
+    <string name="priceEthanol" translatable="false"></string>
+    <string name="betterUse">Better Use</string>
+    <string name="imageDescription">Wich One is the Better</string>
+
 
 </resources>

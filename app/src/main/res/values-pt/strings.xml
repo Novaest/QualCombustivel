@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QualCombustivel</string>
-    <string name="gasolina">gasolina</string>
-    <string name="ethanol">Ethanol</string>
-    <string name="priceEthanol">4.50</string>
-    <string name="priceGasoline">3.50</string>
-    <string name="betterUse">betterUse</string>
+    <string name="app_name">Qual Combustivel</string>
+    <string name="gasolina">Gasolina</string>
+    <string name="ethanol">Etanol</string>
+    <string name="betterUse">Melhor Usar</string>
+    <string name="imageDescription">Qual é o melhor.</string>
 </resources>
